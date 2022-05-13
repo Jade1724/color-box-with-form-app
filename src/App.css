@@ -4,13 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: cursive
+  font-family: cursive;
+  font-weight: 600;
+  color: #777;
 }
 
 .box {
   width: 300px;
-  border: 2px solid black;
-  box-shadow: 0 4px 4px #555;
+  border: 2px solid #555;
+  box-shadow: 0 4px 4px #ccc;
   border-radius: 5px;
 }
 
@@ -21,9 +23,11 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  text-shadow: 2px 2px #ccc;
 }
 
 .input-box {
   font-size: 16px;
   height: 30px;
+  font-family: 'Trattatello';
 }
